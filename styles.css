@@ -113,6 +113,23 @@ header a:visited {
     padding: 20px;
 }
 
+.video-section {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+
+.v-card {
+    text-align: center;
+}
+
+.i-card {
+    text-align: center;
+}
+
 .contact-sec p {
     text-align: center;
 }
