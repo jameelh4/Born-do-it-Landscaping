@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.nav-pills .nav-link.active {
+    background-color: #2A7C13;
+}
+
+.nav-link {
+    color: #2A7C13;
+}
+
+#cnt {
+    color: #2A7C13;
+}
+
+header {
+    background-color: #fff;
+}
+
+header a:visited {
+    color: #2A7C13;
+}
+
+
+.nav-link:hover {
+    color: #76C457;
+}
+
+
+.carousel-caption {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+}
+
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.carousel-caption {
+    z-index: 2; /* keeps the text above the overlay */
+}
+
+.pre-heading {
+    color: #76C457;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+#stitle {
+    color: #2A7C13;
+}
+
+#service-heading {
+    text-align: center;
+}
+
+
+#about {
+    text-align: center;
+}
+
+.abt span{
+   color: #2A7C13;
+}
+
+.service-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
+
+.area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-sec {
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #76C457;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-sec p {
+    text-align: center;
+}
+
+footer {
+    background-color: #76C457;
+    
+}
+
+.card-cover {
+     background-size: cover; 
+  
+  /* Keeps the center of the image at the center of the container */
+    background-position: center; 
+  
+  /* Prevents the image from repeating/tiling */
+    background-repeat: no-repeat; 
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.images img {
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    #about h2 {
+        font-size: 28px;
+    }
+
+    #about p {
+        font-size: 16px;
+        line-height: 1.7;
+        padding: 0 18px;
+    }
+}
